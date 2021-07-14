@@ -344,9 +344,7 @@ h6 {
 
 @media (max-width: 48em) {
 
-  #h1-art,#p-art{
-    padding: 0; 
-  }
+  
   #article-41,#article-42,#article-43,#article-44,#article-45{
     margin-bottom: 25px;
   }
@@ -378,5 +376,8 @@ h6 {
     border-bottom-width: 2px;
     text-decoration: none;
     transition: 0.8s ease;
+  }
+  #h1-art,#p-art{
+    padding: 0; 
   }
 }
