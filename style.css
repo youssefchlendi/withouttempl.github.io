@@ -379,5 +379,6 @@ h6 {
   }
   #h1-art,#p-art{
     padding: 0; 
+    padding-top: 25px;
   }
 }
