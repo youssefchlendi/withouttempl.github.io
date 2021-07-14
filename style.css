@@ -34,23 +34,23 @@ ul a {
   z-index: 1;
 }
 
-#article-2 {
+#article-2,#article-3 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 10px;
   padding: 10px;
 }
 
-#article-21 img {
+#article-21 img,#article-31 img {
   margin: 5% 15%;
   box-shadow: 0px 5px 30px rgba(94, 93, 93, 0.425);
 }
 
-#article-21 {
+#article-21 , #article-31 {
   padding: 10px;
 }
 
-#article-22 {
+#article-22, #article-32 {
   padding: 10px;
 }
 
@@ -62,7 +62,7 @@ p span,div p {
   font-size: 1rem;
 }
 
-#article-22 h2 {
+#article-22 h2 ,#article-32 h2{
   font-size: 32px;
   font-family: "Open Sans", sans-serif;
 }
@@ -198,7 +198,8 @@ h6 {
 }
 
 @media (min-width: 48em) {
-
+ 
+  
   .header li {
     float: left;
   }
@@ -219,6 +220,9 @@ h6 {
 }
 
 @media (max-width: 48em) {
+  #article-2,#article-3{
+    display: block;
+  }
   .container {
     display: block;
   }
