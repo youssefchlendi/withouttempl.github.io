@@ -29,7 +29,23 @@ ul a
   width: 100%;
   z-index: 1;
 }
-
+#article-2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 10px;
+  padding: 10px;
+}
+#article-21 img{
+  justify-items: center;
+  margin: 0 auto  ;
+  padding: 10px;
+  box-shadow: 0px 5px 30px rgba(94, 93, 93, 0.425);
+}
+#article-21{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
 .header ul {
   margin: 0;
   padding: 0;
@@ -163,6 +179,7 @@ color: #333;
   .menu{
     display: none;
   }
+  
   .header .menu {
     clear: both;
     float: center;
