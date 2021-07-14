@@ -34,85 +34,168 @@ ul a {
   z-index: 1;
 }
 
-#article-2,#article-3 {
+#article-2,
+#article-3 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 10px;
   padding: 10px;
 }
 
-#article-21 img,#article-31 img {
+#article-21 img,
+#article-31 img {
   margin: 5% 15%;
   box-shadow: 0px 5px 30px rgba(94, 93, 93, 0.425);
 }
 
-#article-21 , #article-31 {
+#article-21,
+#article-31 {
   padding: 10px;
 }
 
-#article-22, #article-32 {
+#article-22,
+#article-32 {
   padding: 10px;
 }
-#article-32{
+
+#article-32 {
   margin-left: 10%;
 }
 
-p span,div p {
+p span,
+div p {
   background-color: transparent;
   color: #5E6D75;
-  font-family: "Open Sans" ,Sans-serif;
+  font-family: "Open Sans", Sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
 
-#article-22 h2 ,#article-32 h2{
+#article-22 h2,
+#article-32 h2 {
   font-size: 32px;
   font-family: "Open Sans", sans-serif;
 }
-#article-4{
+#ttcont{
+  width: 60%;
+  margin:0 auto;
+}
+#p-art{
+  font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 25%;
+
+}
+#h1-art{
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 27px;
+    color: #3c3C3c;
+    line-height: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+    padding: 0 25%;
+    padding-top: 25px;
+
+}
+#article-4a {
   display: grid;
-  grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+  padding: 5% 5%;
+  grid-template-columns: 26% 26% 26%;
   column-gap: 20px;
   justify-content: center;
+  background-color: #F0F3F5;
+
 }
-#article-41,#article-42,#article-43,#article-44{
+#article-4{
+  background-color: #F0F3F5;
+}
+
+#article-41,
+#article-42,
+#article-43,
+#article-44,
+#article-45 {
+  width: 60%;
+  height: 70%;
   background-color: white;
   padding: 30px 30px 80px 30px;
   margin: auto;
-  border-style: solid;
-  border-radius: 20px;
-  border-width: 1px;
-  border-color: white;
+    border-radius: 20px;
   box-shadow: 0 6px 10px -4px rgb(0 0 0 / 50%);
 }
-.img-ar{
+
+.img-ar {
+  margin: 0 33%;
   padding: 11px 11px 11px 11px;
-    background-color: #F0F3F5;
-    border-style: solid;
-    border-width: 3px 3px 3px 3px;
-    border-color: #FFF;
-    border-radius: 41px 41px 41px 41px;
-    box-shadow: -4px 0 11px -3px rgb(0 0 0 / 50%);
+  background-color: #F0F3F5;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #FFF;
+  border-radius: 41px 41px 41px 41px;
+  box-shadow: -4px 0 11px -3px rgb(0 0 0 / 50%);
 }
-.h2-ar{
+
+.h2-ar {
   margin-top: 20px;
   color: #0D263D;
-    font-family: "Roboto",Sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
 }
-.p-ar{
-  font-family: "Open Sans",Sans-serif;
+
+.p-ar {
+  font-family: "Open Sans", Sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
 }
+
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
+#article-51 {
+  background-color: #2e3c4d;
+  height: 120px;
+  position: absolute;
+  content: '';
+  left: 0;
+  z-index: -1;
+  transform: skewY(2deg);    
+  -webkit-transform: skewY(2deg);
+}
+#article-52cont{
+  background-color: #73767a;
+  width: 100%;
+  padding:100px 0;
+}
+#article-52{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  background-color: inherit;
+  z-index: 100;
+  margin: 0 15%;
+}
+#article-52 p{
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+}
+#article-52 h3{
+  color: white;
+  font-size: 17px;
+  padding-bottom: 10px;
+  line-height: 1.4em;
+  font-weight: bold;
+}
+#article-52 h2{
+  font-weight: bolder;
+  color: white;
+  font-size: 27px;
+}
 
 .header li a {
   display: block;
@@ -214,7 +297,6 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
   padding-bottom: 10px;
   line-height: 1em;
   font-weight: 500;
@@ -239,8 +321,8 @@ h6 {
 }
 
 @media (min-width: 48em) {
- 
-  
+
+
   .header li {
     float: left;
   }
@@ -261,9 +343,12 @@ h6 {
 }
 
 @media (max-width: 48em) {
-  #article-2,#article-3{
+
+  #article-2,
+  #article-3,#article-4a,#article-52{
     display: block;
   }
+
   .container {
     display: block;
   }
