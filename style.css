@@ -1,43 +1,50 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+  margin:0;
+  padding: 0;
+}
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
-
 a {
   color: #000;
 }
-
+ul a
+{
+  font-weight: bold;
+  color : white;
+}
 /* header */
 
 .header {
-  background-color: #fff;
+  background: linear-gradient(-135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
+  overflow: hidden;
+  top:0;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
 }
 
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #fff;
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
-  text-decoration: none;
+    text-decoration: none;
+    transition: 0.8s ease;
 }
-
-.header li a:hover,
-.header .menu-btn:hover {
-  background-color: #f4f4f4;
+.header li a:hover {
+  box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.5);
+  transition: 0.8s ease;
 }
 
 .header .logo {
@@ -53,9 +60,12 @@ a {
 .header .menu {
   clear: none;
   max-height: 0;
-  transition: max-height .2s ease-out;
 }
-
+.space {
+  margin-top: 15%;
+  padding: 0;
+  margin-bottom: 15%;
+}
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -74,12 +84,57 @@ a {
     display: none;
   }
 }
+#container{
+  margin-top: 120px; 
+}
+#article-1 {
+  text-align: center;
+}
+#a{
+  font-size: 26px;
+  line-height: 1em;
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 500;
+  padding:0%;
+  
+}
+h1,h2,h3,h4,h5,h6{
+color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+    margin:0;
+  }
+#bb{
+  padding: 30px 0px 10px;
+
+}
+#b{
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 41px;
+    color: black!important;
+    text-align: center;
+}
+#c{
+  font-size:33px;
+}
+
 @media (max-width: 48em) {
   .header .menu {
     clear: both;
     float: center;
     text-align:center;
     max-height: 250px;
+  }
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,0.5);
+    border-bottom-width: 2px;
+      text-decoration: none;
+      transition: 0.8s ease;
   }
 }
 
