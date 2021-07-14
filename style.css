@@ -10,7 +10,7 @@ html {
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #fff;
 }
 
 a {
@@ -53,6 +53,9 @@ ul a {
 #article-22, #article-32 {
   padding: 10px;
 }
+#article-32{
+  margin-left: 10%;
+}
 
 p span,div p {
   background-color: transparent;
@@ -66,12 +69,50 @@ p span,div p {
   font-size: 32px;
   font-family: "Open Sans", sans-serif;
 }
-
+#article-4{
+  display: grid;
+  grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+  column-gap: 20px;
+  justify-content: center;
+}
+#article-41,#article-42,#article-43,#article-44{
+  background-color: white;
+  padding: 30px 30px 80px 30px;
+  margin: auto;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: white;
+  box-shadow: 0 6px 10px -4px rgb(0 0 0 / 50%);
+}
+.img-ar{
+  padding: 11px 11px 11px 11px;
+    background-color: #F0F3F5;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #FFF;
+    border-radius: 41px 41px 41px 41px;
+    box-shadow: -4px 0 11px -3px rgb(0 0 0 / 50%);
+}
+.h2-ar{
+  margin-top: 20px;
+  color: #0D263D;
+    font-family: "Roboto",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.p-ar{
+  font-family: "Open Sans",Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 
 .header li a {
   display: block;
