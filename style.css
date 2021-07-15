@@ -25,7 +25,7 @@ ul a {
   font-weight: bold;
   color: white;
 }
-
+/* Contact*/
 .app {
   background: #fff;
   border-radius: 9%;
@@ -46,7 +46,7 @@ ul a {
   font-size: 100px;
   font-weight: bold;
   margin: 6% 0 0 50%;
-}
+} 
 
 path {
   fill: #333;
@@ -113,13 +113,10 @@ textarea{
 	transition: all 0.3s;
   position: relative;
 }
-
-
 .btn:hover {
 	box-shadow: 0 4px #9cd3f1;
 	top: 2px;
 }
-
 .btn:active {
 	box-shadow: 0 0 #9cd3f1;
 	top: 6px;
@@ -139,7 +136,6 @@ input ,textarea {
 
   
 }
-
 .lisar {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -147,10 +143,10 @@ input ,textarea {
   font-size: 1rem;
   margin-bottom: 10px
 }
-
 .lisar1 {
   padding-top: 10px;
 }
+/**/
 
 /* header */
 
@@ -200,9 +196,7 @@ input ,textarea {
   margin: 0 5%;
 }
 
-#article-61,
-#article-62,
-#article-63 {
+.article-6a {
   padding: 0 1rem;
   font-family: Graphik, sans-serif;
   margin-bottom: 25px;
@@ -283,11 +277,7 @@ div p {
   background-color: #F0F3F5;
 }
 
-#article-41,
-#article-42,
-#article-43,
-#article-44,
-#article-45 {
+.article-4a {
   width: 60%;
   height: 70%;
   background-color: white;
@@ -522,11 +512,7 @@ h6 {
 @media (max-width: 48em) {
 
 
-  #article-41,
-  #article-42,
-  #article-43,
-  #article-44,
-  #article-45 {
+  .article-4a {
     margin-bottom: 25px;
   }
 
