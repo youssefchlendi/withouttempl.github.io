@@ -72,12 +72,16 @@ ul a {
     -ms-flex-direction: row;
     padding: 3rem 1rem;
     margin: 0 5%
+    
 }
 
 .article-6a {
     padding: 0 1rem;
     font-family: Graphik, sans-serif;
     margin-bottom: 25px
+}
+#article-6 img {
+    margin: 0 25%
 }
 
 .h3-art {
@@ -96,9 +100,7 @@ ul a {
     padding: 0 20%
 }
 
-#article-6 img {
-    margin: 0 25%
-}
+
 
 div p,
 p span {
