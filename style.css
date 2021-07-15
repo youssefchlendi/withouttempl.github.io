@@ -84,6 +84,10 @@ form div{
 input:focus,textarea:focus{
   color: white;
   font-weight: 600;
+  transition: 0.5s ease;
+  box-shadow: 0 4px 15px #4994c0;
+  outline:none;
+
 
 }
 textarea{
@@ -93,7 +97,7 @@ textarea{
 	border-radius: 40px;
   background: #0178b8;
 	color: #fff;
-	box-shadow: 0 6px #0288d1;
+	box-shadow: 0 6px #9cd3f1;
   border: none;
 	font-family: inherit;
 	font-size: inherit;
@@ -112,23 +116,28 @@ textarea{
 
 
 .btn:hover {
-	box-shadow: 0 4px #0288d1;
+	box-shadow: 0 4px #9cd3f1;
 	top: 2px;
 }
 
 .btn:active {
-	box-shadow: 0 0 #0288d1;
+	box-shadow: 0 0 #9cd3f1;
 	top: 6px;
 }
 input ,textarea {
   
-  background: linear-gradient(-135deg,   rgba(0, 212, 255, 1) 0% ,rgba(9, 9, 121, 1) 300%);
-  border: linear-gradient(-135deg,   rgba(0, 212, 255, 1) 0% ,rgba(9, 9, 121, 1) 300%);
+  background-color: #0178b8;
+  border-color: #0178b8;
   border-style: solid;
   border-radius: 15px;
   padding: 0.8rem 0;
   padding-right: 26%;
-  padding-left: 2%;
+  padding-left: 10px;
+  box-shadow: 0 4px 15px #c8dde9;
+  transition: 0.5s ease;
+
+
+  
 }
 
 .lisar {
