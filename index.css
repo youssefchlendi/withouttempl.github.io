@@ -76,6 +76,7 @@ ul a {
     
 }
 .art{
+    max-width: 100%;
     padding: 1px;
     background-color: rgb(248, 248, 248);
     margin: 2%;
@@ -140,6 +141,7 @@ ul a {
     -ms-flex-direction: row;
     padding: 1rem ;
     margin: 0;
+    max-width: 100%;
 }
 
 .article-6a {
@@ -444,8 +446,9 @@ h6 {
     #article-3,
     #article-4a,
     #article-52,
-    #article-6 {
-        display: block
+    #article-6,
+    #article{
+        display: block;
     }
 
     .container {
