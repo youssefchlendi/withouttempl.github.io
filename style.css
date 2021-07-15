@@ -54,10 +54,12 @@ ul a {
   .logoi {
     fill: #333;
   }
-
+  .filter-green{
+    filter: invert(48%) sepia(0%) saturate(44%) hue-rotate(221deg) brightness(41%) contrast(119%);
+}
 .lisar{
   font-family:Arial, Helvetica,sans-serif;
-  font-weight: 600;
+  font-weight: 600; 
   color: rgb(94, 109, 117);
   font-size: 1rem;
   margin-bottom: 25px
