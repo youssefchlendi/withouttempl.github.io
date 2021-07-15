@@ -25,7 +25,46 @@ ul a {
   font-weight: bold;
   color: white;
 }
+.app {
+	background: #fff;
+	border-radius: 9%;
+	display: block;
+	height: 100px;
+	left: 50%;
+	margin: -51px 0 0 -49px;
+	position: absolute;
+	top: 50%;
+	width: 100px; 
+}
+ 
+.app:after {
+	color: #43609C;
+	content: "f";
+	display: block;
+	font-family: Facebook Letter Faces, Arial;
+	font-size: 100px;
+	font-weight: bold;
+	margin: 6% 0 0 50%; }
+  path {
+    fill: #333;
+  }
+  circle{
+    fill : #fff;
+  }
+  .logoi {
+    fill: #333;
+  }
 
+.lisar{
+  font-family:Arial, Helvetica,sans-serif;
+  font-weight: 600;
+  color: rgb(94, 109, 117);
+  font-size: 1rem;
+  margin-bottom: 25px
+}
+.lisar1{
+  padding-top:25px;
+}
 /* header */
 
 .header {
@@ -241,7 +280,7 @@ div p {
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 20px 20px; 
   text-decoration: none;
   transition: 0.8s ease;
 }
