@@ -89,10 +89,41 @@ input:focus,textarea:focus{
 textarea{
   width: 32vw;
 }
+.btn {
+	border-radius: 40px;
+  background: #0178b8;
+	color: #fff;
+	box-shadow: 0 6px #0288d1;
+  border: none;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: pointer;
+	padding: 10%;
+	margin: 15px ;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  position: relative;
+}
+
+
+.btn:hover {
+	box-shadow: 0 4px #0288d1;
+	top: 2px;
+}
+
+.btn:active {
+	box-shadow: 0 0 #0288d1;
+	top: 6px;
+}
 input ,textarea {
   
-  background-color: #0288d1;
-  border-color: #0288d1;
+  background: linear-gradient(-135deg,   rgba(0, 212, 255, 1) 0% ,rgba(9, 9, 121, 1) 300%);
+  border: linear-gradient(-135deg,   rgba(0, 212, 255, 1) 0% ,rgba(9, 9, 121, 1) 300%);
   border-style: solid;
   border-radius: 15px;
   padding: 0.8rem 0;
