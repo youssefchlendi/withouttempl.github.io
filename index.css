@@ -30,7 +30,7 @@ ul a {
 
 .header {
     background: linear-gradient(-135deg, rgba(2, 0, 36, 1) 0, rgba(9, 9, 121, 1) 0, rgba(0, 212, 255, 1) 100%);
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 1px 1px 4px 0 rgba(158, 145, 145, 0.1);
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -71,8 +71,75 @@ ul a {
     display: flex;
     -ms-flex-direction: row;
     padding: 3rem 1rem;
+    
     margin: 0 5%
     
+}
+.art{
+    padding: 1px;
+    background-color: rgb(248, 248, 248);
+    margin: 2%;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px 0 rgba(139, 139, 139, 0.2);
+    transition: 0.5s ease;
+
+}
+.art:hover{
+    box-shadow: 0px 3px 0px 0 rgb(0, 11, 172);
+    transition: 0.5s ease;
+}
+.art img{
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 20%;
+    margin: 0 5%;
+    padding: 10%;
+    width: 70%;
+}
+.art h3{
+    margin: 20px 0 1px!important;
+    color: #191919;
+    padding: 10px;
+
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.art div p{
+    text-align: center;
+    padding: 10px;
+
+    color: #acacac;
+    font-style: italic;
+}
+.art p{
+    padding: 10px;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #323232;
+    margin-bottom: 15px;
+}
+.h1-art{
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #071e55;
+    font-weight: 600;
+}
+#article{
+    background-color: #fafbfc;
+    display:flex;
+    -ms-flex-direction: row;
+    padding: 1rem ;
+    margin: 0;
 }
 
 .article-6a {
