@@ -110,6 +110,12 @@ ul a {
     text-transform: uppercase;
     text-align: center;
 }
+#small{
+    display: none;
+}
+#big{
+    width: 45%;
+}
 .art div p{
     text-align: center;
     padding: 10px;
@@ -168,7 +174,6 @@ ul a {
     line-height: 1.5;
     padding: 0 20%
 }
-
 
 
 div p,
@@ -422,6 +427,7 @@ h6 {
 }
 
 @media (min-width:48em) {
+    
     .header li {
         float: left
     }
@@ -438,8 +444,14 @@ h6 {
 }
 
 @media (max-width:48em) {
+    #big{
+        display: none;
+    }
     .article-4a {
         margin-bottom: 25px
+    }
+    #small{
+        display: block;
     }
 
     #article-2,
