@@ -12,17 +12,12 @@
 </head>
 
 <body>
-  <div data-netlify-identity-menu></div>
-
-  <!-- Add a simpler button:
-    Simple button that will open the modal.
-  -->
-  <div data-netlify-identity-button>Login with Netlify Identity</div>
   <header class="header">
     <a href="index.html" class="logo">
-      <img id="big"  src="images/biglogo.png">
+      <img id="big" src="images/biglogo.png">
       <img id="small" width="30%" src="images/minilogo.png">
     </a>
+
     <div class="container" onclick="toggleMenu(this)">
       <div class="bar1"></div>
       <div class="bar2"></div>
@@ -34,9 +29,16 @@
       <li><a href="index.html#article-4">Fonctionnalités</a></li>
       <li><a href="index.html#tarif">Tarif</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li class="dropdown">
+        <button class="dropbtn" >User</button>
+        <div class="dropdown-content">
+          <div data-netlify-identity-menu></div>
+        </div>
+      </li>
     </ul>
   </header>
   <div id="container">
+
     <div id="article-1">
       <h1 id="a">Clic un devis ! Clic une facture !</h1>
       <div id="bb">
@@ -199,8 +201,8 @@
         </div>
 
       </div>
-      </div>
-      <!--<div id="article-6">
+    </div>
+    <!--<div id="article-6">
         <div class="article-6a">
           <h3 class="h3-art" style="text-align: center; padding: 17px 0 17px 0;">
             <span style="font-weight: 400;">
@@ -250,78 +252,78 @@
           </p>
         </div>
       </div>-->
-      <div style="padding-top:5%;background-color: #fafbfc;">
-        <h1 class="h1-art">Testimonial</h1>
-        <div id="article">
-          <div class="art">
-            <img src="images/f.jpg">
-            <h3>Laura D.</h3>
-            <div>
-              <p>Business Manager</p>
-            </div>
-            <p>"We switched to Zmonka to make sure all our employees have a one centralized software for
-              time and expense tracking. Our staff is enjoying as it works really well."</p>
+    <div style="padding-top:5%;background-color: #fafbfc;">
+      <h1 class="h1-art">Testimonial</h1>
+      <div id="article">
+        <div class="art">
+          <img src="images/f.jpg">
+          <h3>Laura D.</h3>
+          <div>
+            <p>Business Manager</p>
           </div>
-          <div class="art">
-
-            <img src="images/f.jpg">
-            <h3>Laura D.</h3>
-            <div>
-              <p>Business Manager</p>
-            </div>
-            <p>"We switched to Zmonka to make sure all our employees have a one centralized software for
-              time and expense tracking. Our staff is enjoying as it works really well."</p>
-          </div>
-          <div class="art">
-
-            <img src="images/f.jpg">
-            <h3>Laura D.</h3>
-            <div>
-              <p>Business Manager</p>
-            </div>
-            <p>"We switched to Zmonka to make sure all our employees have a one centralized software for
-              time and expense tracking. Our staff is enjoying as it works really well."</p>
-          </div>
-          <div class="art">
-
-            <img src="images/f.jpg">
-            <h3>Laura D.</h3>
-            <div>
-              <p>Business Manager</p>
-            </div>
-            <p>"We switched to Zmonka to make sure all our employees have a one centralized software for
-              time and expense tracking. Our staff is enjoying as it works really well."</p>
-          </div>
+          <p>"We switched to Zmonka to make sure all our employees have a one centralized software for
+            time and expense tracking. Our staff is enjoying as it works really well."</p>
         </div>
-      </div>
-      <div id="article-5">
-        <div id="article-51">
-        </div>
-        <div id=article-52cont>
-          <div id="article-52">
-            <div>
-              <a href=""><span><img width="182" height="179" src="images/fact.png">
-                </span>
-              </a>
-            </div>
-            <div>
-              <h2 style="padding-bottom: 14px; text-align: left;">
-                Logiciel de facturation
-              </h2>
-              <h3 style="text-align: left;">
-                Centralisez vos factures dans un seul outil de gestion commerciale<br> conforme
-                à la loi anti fraude.
-              </h3>
-              <p style="text-align: left;">
-                Un logiciel de facturation simple et efficace pour suivre au mieux vos achats et ventes.
-              </p>
+        <div class="art">
 
-            </div>
-
+          <img src="images/f.jpg">
+          <h3>Laura D.</h3>
+          <div>
+            <p>Business Manager</p>
           </div>
+          <p>"We switched to Zmonka to make sure all our employees have a one centralized software for
+            time and expense tracking. Our staff is enjoying as it works really well."</p>
+        </div>
+        <div class="art">
+
+          <img src="images/f.jpg">
+          <h3>Laura D.</h3>
+          <div>
+            <p>Business Manager</p>
+          </div>
+          <p>"We switched to Zmonka to make sure all our employees have a one centralized software for
+            time and expense tracking. Our staff is enjoying as it works really well."</p>
+        </div>
+        <div class="art">
+
+          <img src="images/f.jpg">
+          <h3>Laura D.</h3>
+          <div>
+            <p>Business Manager</p>
+          </div>
+          <p>"We switched to Zmonka to make sure all our employees have a one centralized software for
+            time and expense tracking. Our staff is enjoying as it works really well."</p>
         </div>
       </div>
     </div>
+    <div id="article-5">
+      <div id="article-51">
+      </div>
+      <div id=article-52cont>
+        <div id="article-52">
+          <div>
+            <a href=""><span><img width="182" height="179" src="images/fact.png">
+              </span>
+            </a>
+          </div>
+          <div>
+            <h2 style="padding-bottom: 14px; text-align: left;">
+              Logiciel de facturation
+            </h2>
+            <h3 style="text-align: left;">
+              Centralisez vos factures dans un seul outil de gestion commerciale<br> conforme
+              à la loi anti fraude.
+            </h3>
+            <p style="text-align: left;">
+              Un logiciel de facturation simple et efficace pour suivre au mieux vos achats et ventes.
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   </div>
   <script src="javascript.js" type="text/javascript"></script>

@@ -1,6 +1,68 @@
 * {
     font-family: Arial, Helvetica, sans-serif
 }
+.netlify-identity-signup{
+
+}
+.dropbtn{
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: #fff;
+    font-size: 15px;
+}
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown {
+      
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color:#09127f    ;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+  
 
 html {
     margin: 0;
@@ -315,14 +377,14 @@ p span {
     font-size: 27px
 }
 
-.header li a {
+.header li a, .dropbtn{
     display: block;
     padding: 20px 20px;
     text-decoration: none;
     transition: .8s ease
 }
 
-.header li a:hover {
+.header li a:hover,.dropdown:hover {
     box-shadow: 0 0 100px 0 rgba(255, 255, 255, .5);
     transition: .8s ease
 }
@@ -432,7 +494,7 @@ h6 {
         float: left
     }
 
-    .header li a {
+    .header li a,.dropbtn {
         padding: 20px 30px
     }
 
@@ -478,7 +540,7 @@ h6 {
         max-height: 250px
     }
 
-    .header li a {
+    .header li a,.dropbtn {
         display: block;
         padding: 10px 20px;
         border-bottom-style: solid;
