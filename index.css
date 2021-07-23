@@ -1,68 +1,70 @@
 * {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
 }
-.netlify-identity-signup{
 
-}
-.dropbtn{
-    border: none;
-    background-color: transparent;
-    font-weight: 700;
-    color: #fff;
-    font-size: 15px;
-}
 /* The dropdown container */
 .dropdown {
     float: left;
     overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown {
-      
+}
+
+/* Dropdown button */
+.dropdown {
+
     font-size: 16px;
     border: none;
     outline: none;
     color: white;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
     display: none;
     position: fixed;
-    background-color:#09127f    ;
+    background-color: #09127f;
     text-align: center;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
     float: none;
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
     background-color: #ddd;
 
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
     display: block;
 
-  }
-  
+}
+
+.dropbtn {
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: #fff;
+    font-size: 15px;
+}
+
+
 
 html {
     margin: 0;
@@ -74,10 +76,6 @@ body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     background-color: #fff
-}
-
-a {
-    color: #000
 }
 
 ul a {
@@ -100,44 +98,101 @@ ul a {
     z-index: 1;
 }
 
-#article-2,
-#article-3 {
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.header li a,
+.dropbtn {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    transition: .8s ease
+}
+
+.header li a:hover,
+.dropdown:hover {
+    box-shadow: 0 0 100px 0 rgba(255, 255, 255, .5);
+    transition: .8s ease
+}
+
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none
+}
+
+.header .menu {
+    clear: none;
+    max-height: 0
+}
+
+.container {
+    display: none;
+    cursor: pointer;
+    float: right;
+    font-size: 2em;
+    padding: 10px 20px
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: .4s
+}
+
+/* article 1 */
+#a {
+    font-size: 26px;
+    line-height: 1em;
+    font-weight: 500;
+    padding: 0;
+
+}
+
+#b {
+    font-weight: 700;
+    font-size: 41px;
+    color: #000 !important;
+    padding: 30px 0 10px;
+
+}
+
+#c {
+    font-size: 33px
+}
+
+/* article 1 */
+
+
+
+.grid-2 {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 10px;
     padding: 10px
 }
 
-#article-21 img,
-#article-31 img {
+.grid-2-img {
     margin: 5% 15%;
     box-shadow: 0 5px 30px rgba(94, 93, 93, .425)
 }
 
-#article-21,
-#article-31 {
+.grid-2-pad-10 {
     padding: 10px
 }
 
-#article-22,
-#article-32 {
-    padding: 10px
-}
 
-#article-32 {
-    margin-left: 10%
-}
 
-#article-6 {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    padding: 3rem 1rem;
-    
-    margin: 0 5%
-    
-}
-.art{
+.carte-2 {
     max-width: 100%;
     padding: 1px;
     background-color: rgb(248, 248, 248);
@@ -149,11 +204,13 @@ ul a {
     transition: 0.5s ease;
 
 }
-.art:hover{
+
+.carte-2:hover {
     box-shadow: 0px 3px 0px 0 rgb(0, 11, 172);
     transition: 0.5s ease;
 }
-.art img{
+
+.carte-2 img {
     border-style: solid;
     border-width: 1px;
     border-color: transparent;
@@ -162,8 +219,9 @@ ul a {
     padding: 10%;
     width: 70%;
 }
-.art h3{
-    margin: 20px 0 1px!important;
+
+.carte-2 h3 {
+    margin: 20px 0 1px !important;
     color: #191919;
     padding: 10px;
 
@@ -172,20 +230,24 @@ ul a {
     text-transform: uppercase;
     text-align: center;
 }
-#small{
+
+#small {
     display: none;
 }
-#big{
+
+#big {
     width: 45%;
 }
-.art div p{
+
+.carte-2 div p {
     text-align: center;
     padding: 10px;
 
     color: #acacac;
     font-style: italic;
 }
-.art p{
+
+.carte-2 p {
     padding: 10px;
 
     font-size: 16px;
@@ -194,7 +256,10 @@ ul a {
     color: #323232;
     margin-bottom: 15px;
 }
-.h1-art{
+
+.h1-art {
+    text-align: center;
+    padding-top: 40px;
     padding: 1rem;
     text-align: center;
     margin-bottom: 10px;
@@ -203,22 +268,14 @@ ul a {
     color: #071e55;
     font-weight: 600;
 }
-#article{
+
+.flex-row {
     background-color: #fafbfc;
-    display:flex;
+    display: flex;
     -ms-flex-direction: row;
-    padding: 1rem ;
+    padding: 1rem;
     margin: 0;
     max-width: 100%;
-}
-
-.article-6a {
-    padding: 0 1rem;
-    font-family: Graphik, sans-serif;
-    margin-bottom: 25px
-}
-#article-6 img {
-    margin: 0 25%
 }
 
 .h3-art {
@@ -234,7 +291,8 @@ ul a {
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.5;
-    padding: 0 20%
+    padding: 0 20%;
+    text-align: center;
 }
 
 
@@ -247,16 +305,7 @@ p span {
     font-size: 1rem
 }
 
-#article-22 h2,
-#article-32 h2 {
-    font-size: 32px;
-    font-family: "Open Sans", sans-serif
-}
 
-#ttcont {
-    width: 60%;
-    margin: 0 auto
-}
 
 #p-art {
     font-family: Roboto, Helvetica, Arial, Lucida, sans-serif;
@@ -265,8 +314,7 @@ p span {
     padding: 0 25%
 }
 
-#h1-art {
-    font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
+.titre-gris {
     font-weight: 800;
     font-size: 27px;
     color: #3c3c3c;
@@ -277,7 +325,7 @@ p span {
     padding-top: 25px
 }
 
-#article-4a {
+.grid-3 {
     display: grid;
     padding: 5% 5%;
     grid-template-columns: 26% 26% 26%;
@@ -286,11 +334,8 @@ p span {
     background-color: #f0f3f5
 }
 
-#article-4 {
-    background-color: #f0f3f5
-}
 
-.article-4a {
+.carte {
     width: 60%;
     height: 70%;
     background-color: #fff;
@@ -326,30 +371,8 @@ p span {
     line-height: 30px
 }
 
-.header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none
-}
 
-#article-51 {
-    background-color: #2e3c4d;
-    height: 120px;
-    position: absolute;
-    content: '';
-    left: 0;
-    z-index: -1;
-    transform: skewY(2deg);
-    -webkit-transform: skewY(2deg)
-}
-
-#article-52cont {
-    background-color: #73767a;
-    width: 100%;
-    padding: 100px 0
-}
-
-#article-52 {
+.grid-2-1-3 {
     display: grid;
     grid-template-columns: 25% 75%;
     background-color: inherit;
@@ -357,13 +380,13 @@ p span {
     margin: 0 15%
 }
 
-#article-52 p {
+.grid-2-1-3 p {
     font-size: 15px;
     font-weight: 300;
     color: #fff
 }
 
-#article-52 h3 {
+.grid-2-1-3 h3 {
     color: #fff;
     font-size: 17px;
     padding-bottom: 10px;
@@ -371,70 +394,15 @@ p span {
     font-weight: 700
 }
 
-#article-52 h2 {
+.grid-2-1-3 h2 {
     font-weight: bolder;
     color: #fff;
     font-size: 27px
 }
 
-.header li a, .dropbtn{
-    display: block;
-    padding: 20px 20px;
-    text-decoration: none;
-    transition: .8s ease
-}
 
-.header li a:hover,.dropdown:hover {
-    box-shadow: 0 0 100px 0 rgba(255, 255, 255, .5);
-    transition: .8s ease
-}
 
-.header .logo {
-    display: block;
-    float: left;
-    font-size: 2em;
-    padding: 10px 20px;
-    text-decoration: none
-}
 
-.header .menu {
-    clear: none;
-    max-height: 0
-}
-
-#container {
-    margin-top: 120px
-}
-
-#article-1 {
-    text-align: center
-}
-
-#a {
-    font-size: 26px;
-    line-height: 1em;
-    font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
-    font-weight: 500;
-    padding: 0
-}
-
-.container {
-    display: none;
-    cursor: pointer;
-    float: right;
-    font-size: 2em;
-    padding: 10px 20px
-}
-
-.bar1,
-.bar2,
-.bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #fff;
-    margin: 6px 0;
-    transition: .4s
-}
 
 h1,
 h2,
@@ -448,53 +416,42 @@ h6 {
     margin: 0
 }
 
-#bb {
-    padding: 30px 0 10px
-}
 
-#b {
-    font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
-    font-weight: 700;
-    font-size: 41px;
-    color: #000 !important;
-    text-align: center
-}
 
-#c {
-    font-size: 33px
-}
+
 
 .bar1,
 .bar2,
 .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 .change .bar2 {
-  opacity: 0;
+    opacity: 0;
 }
 
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 @media (min-width:48em) {
-    
+
     .header li {
         float: left
     }
 
-    .header li a,.dropbtn {
+    .header li a,
+    .dropbtn {
         padding: 20px 30px
     }
 
@@ -506,22 +463,17 @@ h6 {
 }
 
 @media (max-width:48em) {
-    #big{
+    #big {
         display: none;
     }
-    .article-4a {
-        margin-bottom: 25px
-    }
-    #small{
+
+
+
+    #small {
         display: block;
     }
 
-    #article-2,
-    #article-3,
-    #article-4a,
-    #article-52,
-    #article-6,
-    #article{
+    .grid-2,.flex-row,.grid-3,.grid-2-1-3 {
         display: block;
     }
 
@@ -540,7 +492,8 @@ h6 {
         max-height: 250px
     }
 
-    .header li a,.dropbtn {
+    .header li a,
+    .dropbtn {
         display: block;
         padding: 10px 20px;
         border-bottom-style: solid;
